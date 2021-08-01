@@ -1,0 +1,723 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+
+
+.wr-intro .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    font-style: 64px;
+}
+.wr-intro h1 {
+    padding-top: 92px;
+}
+.wr-intro .button {
+    margin-top: 160px;
+}
+.wr-intro .pages {
+    margin-top: 70px;
+}
+
+.wr-intro .block-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wr-intro .img-block {
+    margin-left: 70px;
+}
+.wr-intro .block-2 {
+    display: none;
+    position: relative;
+  
+}
+.wr-intro .block-1 {
+    position: relative;
+}
+ .wr-intro a{
+     color: #333;
+     border: 2px solid #fff;
+     background-color: #fff;
+ }
+
+
+/*section about company*/
+
+ .wr-about .wrapper {
+     background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    
+}
+.wr-about .picture-one {
+    margin-left: 100px;
+    position: relative;
+}
+.picture-one img {
+    margin-top: 30px;
+}
+.picture-one img:nth-child(2) {
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+
+.picture-two img {
+    margin: 60px 0 0 30px;
+}
+.about-us {
+    margin: 10px 0 0 30px;
+}
+.about-us h2 {
+    font-size: 64px;
+    color: #bdbdbd;
+    margin: 30px 0;
+}
+.about-us p {
+    font-size: 16px;
+    color: #000;
+    margin-top: 10px;
+}
+.wr-about .block-button {
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+ .wr-about a{
+     color: #333;
+     border: 2px solid #fff;
+     background-color: #fff;
+ }
+ 
+
+/*section tasks*/
+
+.wr-tasks .wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.task-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 154px;
+}
+.task-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.wr-tasks .task-text {
+    font-size: 22px;
+    line-height: 36px;
+    padding-left: 30px;
+}
+
+    /*section product*/
+
+
+.wr-product .wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.wr-product .title-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.wr-product .img-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.img {
+    position: relative;
+}
+.wr-product .img:nth-child(1) {
+    margin-right: 30px;
+}
+.img .text-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.shadow {
+    position: relative;
+}
+.img-block .shadow:nth-child(1) .text-block p {
+    font-size: 40px;
+    padding-top: 65px;
+    padding-left: 15px;
+}
+.img-block .shadow:nth-child(1) .text-block a {
+    padding-left: 15px;
+}
+.img-block .shadow:nth-child(3) .text-block p {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+.img-block .shadow:nth-child(3) .text-block a {
+    padding-left: 15px;
+}
+.shadow .text-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.wr-product .shadow .text-block:hover {
+    opacity: 1;
+}
+.wr-product .img .text-block:hover {
+    opacity: 1;
+}
+.text-block p {
+    font-size: 64px;
+    color: #fff;
+    padding-top: 48px;
+    padding-left: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-block a {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 14px;
+}
+.text-block .arrow {
+    padding-left: 15px;
+}
+
+.title-block .img {
+    background: #000;
+    overflow:hidden;
+}
+.img-block .shadow {
+    background: #000;
+    overflow: hidden;
+}
+.img img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+}
+.img:hover img {
+    opacity: 0.4;
+}
+.shadow img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+}
+.shadow:hover img {
+    opacity:0.4;
+}
+.wr-product .block-button {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+.wr-product .block {
+    color: #fff;
+    border: 2px solid #333;
+    background-color: #333;
+}
+
+
+
+/* section forms*/
+
+
+.wr-connection .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.wr-connection .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+.container .form {
+    display: flex;
+    flex-direction: column;
+}
+.container img {
+    padding-left: 30px;
+}
+.form-button {
+    max-width: 222px;
+    min-height: 71px;
+}
+.form-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.popup  {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup-body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup-content {
+    background-color: #fff;
+    max-width: 516px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.popup-close {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.popup-show {
+    line-height: 26px;
+    letter-spacing: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup-show h2 {
+    font-family: "TT-Bold"; 
+    font-size: 24px;
+    margin:  32px 0 0 0;
+}
+.popup-show p {
+    font-family: "TT-Medium";
+    font-size: 14px;
+    margin: 27px 0 0 0;
+    white-space: pre-line;
+    text-align: center;
+}
+.popup-show a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #333;
+    background-color: #333;
+    width: 100%;
+    min-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 41px;
+}
+body {
+    
+    max-height: 100vh;
+}
+
+
+
+
+
+@media screen and (max-width:1199px) {
+    .wr-intro {
+        background-color: cadetblue;
+    }
+    .wr-intro h1 {
+        font-size: 52px;
+        margin-left: 30px;
+    }
+    .wr-intro .button {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .wr-intro .pages {
+        margin-left: 30px;
+    }
+    .about-us h2 {
+        font-size: 52px;
+    }
+    .wr-tasks .task-text {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .wr-product .text-block p {
+        font-size: 45px;
+        padding-top: 40px;
+    }
+    .img-block .shadow:nth-child(1) .text-block p {
+        font-size: 28px;
+        padding-top: 46px;
+        padding-left: 15px;
+    }
+    .img-block .shadow:nth-child(1) .text-block a {
+        padding-left: 15px;
+    }
+    .img-block .shadow:nth-child(3) .text-block p {
+        font-size: 40px;
+        padding-top: 50px;
+        padding-left: 15px;
+    }
+    .img-block .shadow:nth-child(3) .text-block a {
+        padding-left: 15px;
+    }
+    .wr-product .title-block {
+        justify-content: space-around;
+    }
+    .wr-product .img-block {
+        justify-content: space-around;
+    }
+    .wr-connection .container {
+        flex-wrap: wrap;
+    }
+    .wr-connection .form {
+        margin: 30px auto;
+    }
+    .wr-connection picture {
+       margin: 30px auto;
+    }
+    footer .wrapper {
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 15px 0 15px;
+    }
+    footer .logotype {
+       margin-bottom: 120px;
+    }
+    footer .info-block {
+        margin: 0 auto;
+        margin-bottom: auto;
+    }
+    footer .info-block h2 {
+        text-align: center;
+    }
+    footer .contact-block {
+        margin: 0 auto;
+        margin-bottom: auto;
+    }
+    footer .net-block {
+        margin: 0 auto;
+        margin-bottom: auto;
+    }
+    footer .copyright {
+        margin-top: 20px;
+    padding-top: 31px;
+    }
+   
+
+    
+}
+@media screen and (max-width:991px) {
+    
+    h1 {
+        margin: 0;
+    }
+    .wr-intro h1 {
+        font-size: 48px;
+        margin-left: 30px;
+    }
+    .wr-intro .block-button a {
+        letter-spacing: 1px;
+        padding: 15px 10px;
+    }
+    .wr-intro .button {
+        margin-top: 40px;
+    }
+    .wr-intro .pages {
+       font-size: 16px;
+       margin-top: 36px;
+       align-items: center;
+    }
+    .wr-intro .pages img {
+        margin: 0 26px;
+    }
+    .wr-about .wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #fbfbfb;
+    }
+    .wr-about .picture-one {
+        margin: 0;
+    }
+    .about-us {
+        text-align: center;
+        margin-top: 55px;
+    }
+    .about-us h2 {
+        font-size: 64px;
+        
+    }
+    .wr-about .block-button {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .wr-tasks h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+    }    
+    .wr-tasks .task-two {
+        margin-top: 35px;
+    }
+    
+    .wr-product .text-block p {
+        font-size: 35px;
+        padding-top: 21px;
+        padding-left: 18px;
+    }
+    
+    .img-block .shadow:nth-child(1) .text-block p {
+        font-size: 18px;
+        padding-top: 34px;
+        padding-left: 15px;
+    }
+    .img-block .shadow:nth-child(1) .text-block a {
+        padding-left: 15px;
+    }
+    .img-block .shadow:nth-child(3) .text-block p {
+        font-size: 20px;
+        padding-top: 28px;
+        padding-left: 15px;
+    }
+    .img-block .shadow:nth-child(3) .text-block a {
+        font-size: 9px;
+        padding-left: 15px;
+    }
+    .wr-product .img {
+        margin-top: 20px;
+    }
+    .wr-product .img-block {        
+        padding-top: 0;
+    }
+    .wr-product .shadow {
+        margin-top: 20px;
+    }
+    
+    .wr-product .block-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .wr-connection .wrapper {
+        flex-wrap: wrap;
+    }
+    .wr-connection .container {
+        margin: 0 auto;
+    }
+    .wr-connection .caption {
+        padding-right: 0;
+    }
+    
+    footer .wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+     }
+     footer .info-block {
+         margin-top: -100px;
+         align-items: center;
+     }
+     footer .contact-block {
+        align-items: center;
+        margin-top: 50px;
+     }
+     footer .net-block {
+         text-align: center;
+         margin-top: 50px;
+         align-items: center;
+     }
+    
+
+}
+@media screen and (max-width:767px) {
+    
+    .header .list {
+        display: none;
+    }
+    .menu-open {
+        display: block;
+    }
+    .header .show-menu {
+        color: #fff;
+        display: block;
+        position: absolute;
+        background: rgba(0,0,0,1);
+        left: 0;
+        top: 55px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        z-index: 1;
+    }
+    .header .nav a {
+        color: #fff;
+    }
+    .wr-intro .wrapper {
+        flex-wrap: wrap;
+    }
+    .wr-intro  .text {
+        margin: 30px auto;        
+    }
+    .wr-intro  .text h1 {
+        padding-top: 0
+    }
+    .wr-intro  .button {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .wr-intro .pages {
+        margin: 36px 0 0;
+        justify-content: center;
+    }
+    .wr-intro  .img-block {
+        margin: 20px auto;
+    }
+   .wr-intro  .block-button a {
+        padding: 15px 15px;
+    }
+    .wr-about .about-us {
+        padding-left: 0px;
+    }
+    .wr-tasks .wrapper {
+        padding: 20px;
+    }
+    
+    .wr-tasks .task {
+        flex-wrap: wrap;
+    }
+    .wr-product .title-block {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .wr-product .img-block {
+        flex-wrap: wrap;
+    }
+    .text-block {
+        margin-right: 15px;
+    }
+    .text-block a {
+        padding: 0 40px 0;
+        margin-bottom: 15px;
+    }
+  
+    
+    
+    
+}
+@media screen and (max-width:575px) {
+ 
+    .wr-intro h1 {
+        font-size: 38px;
+    }
+    .wr-intro .arrow-left .arrow-right {
+        width: 30px;
+        height: 30px;
+    }
+     .wr-about .picture-two img {
+         margin: 210px 0 0 0;
+     }
+     .wr-about .about-us {
+         text-align: left;
+         margin-top: 0;
+     }
+     .wr-about .about-us h2 {
+         font-size: 52px;
+     }
+     .wr-tasks .caption {
+         font-size: 34px;
+    }
+     .wr-tasks .task-text {
+        font-size: 18px;
+        line-height: 18px;
+     }
+     .wr-tasks .task-one {
+        padding-right: 20px;
+    }
+    .wr-tasks .task-one img {
+        float: left;
+        margin: 0 15px 10px 0;
+    }
+     .wr-tasks .task-two {
+         padding-right: 20px;
+    }
+    .wr-product .caption {
+        font-size: 42px;
+        text-align: center;
+        padding: 0;
+    }
+    .wr-product .img:nth-child(1) {
+        margin: 0;
+    }
+    .wr-product .text-block p {
+        font-size: 30px;
+    }
+    .wr-product .caption {
+        margin-left: 0;
+        white-space: normal;
+    }
+    .wr-product .text-block p {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .wr-product .text-block a {
+        font-size: 6px;
+    }
+    .wr-connection .caption {
+        font-size: 46px;
+        letter-spacing: 1px;
+    }
+    .wr-connection picture {
+       display: none;
+    }
+    .wr-connection .checkbox label {
+        padding-left: 0;
+    }
+    .item {
+        min-width: 250px;
+    }
+    .wr-connection .popup-content {
+        padding: 5px;
+    }
+    
+     
+}
+
